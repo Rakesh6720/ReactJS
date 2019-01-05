@@ -13,11 +13,12 @@ class AddFishForm extends React.Component {
         e.preventDefault();
         const fish = {
             name: this.nameRef.current.value,
-            Fprice: parseFloat(this.priceRef.current.value), // store money as cents
+            price: parseFloat(this.priceRef.current.value), // store money as cents
             status: this.statusRef.current.value,
             desc: this.descRef.current.value,
             image: this.imageRef.current.value
         };
+        console.log(fish);
     }
     render(){
         return (

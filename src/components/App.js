@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import Header from './Header';
 import Order from './Order';
@@ -40,26 +39,4 @@ class App extends React.Component {
     }
 }
 
-=======
-import React from 'react';
-import Header from './Header';
-import Order from './Order';
-import Inventory from './Inventory';
-
-class App extends React.Component {
-    render() {
-        return (
-            <div className="catch-of-the-day">
-                <div className="menu">
-                    <Header tagline="Fresh Seafood Market"
-                            tagline2 = "Kesh is cool"/>
-                </div>                
-                <Order />
-                <Inventory />
-            </div>
-        )
-    }
-}
-
->>>>>>> 6ea5f477453f884d729f0ac7b7aa939fbcb24f8c
 export default App;
